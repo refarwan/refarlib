@@ -11,7 +11,4 @@ rfl.pesan = function (pesan, tidakanLanjutan) {
     wadahPesan.classList.add("wadah-pesan");
     popUp.appendChild(wadahPesan);
     hoverPenuh.appendChild(popUp);
-    setTimeout(function () {
-        popUp.style.transform = "scale(1)";
-    }, 1)
 }
