@@ -11,12 +11,12 @@
         -o-transform: scale(0);
     }
 
-    50% {
-        transform: scale(1.2);
-        -webkit-transform: scale(1.2);
-        -moz-transform: scale(1.2);
-        -ms-transform: scale(1.2);
-        -o-transform: scale(1.2);
+    65% {
+        transform: scale(2);
+        -webkit-transform: scale(2);
+        -moz-transform: scale(2);
+        -ms-transform: scale(2);
+        -o-transform: scale(2);
     }
 
     100% {
@@ -51,8 +51,47 @@
     -o-transform: scale(0);
     animation: zoom-in var(--durasi) 1 forwards;
     -webkit-animation: zoom-in var(--durasi) forwards;
+    text-align: center;
 }
 
 .wadah-pesan {
-    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.pop-up button {
+    box-sizing: border-box;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.tombol-oke {
+    border: none;
+    background-color: rgb(100, 100, 100);
+    color: rgb(250, 250, 250);
+}
+
+.tombol-batal {
+    border: 2px solid rgb(100, 100, 100);
+    color: rgb(100, 100, 100);
+    background-color: rgb(250, 250, 250);
+}
+
+button:focus {
+    outline: none;
+}
+
+.pop-up input {
+    box-sizing: border-box;
+    width: 200px;
+    height: 40px;
+    display: block;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+.pop-up input:focus {
+    outline: none;
 }

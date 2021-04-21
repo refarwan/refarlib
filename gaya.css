@@ -97,3 +97,7 @@ h1 {
 .biru {
     color: rgb(72, 188, 192);
 }
+
+.kode {
+    white-space: pre-line;
+}
